@@ -404,3 +404,37 @@ footer a{
     color:#222;
     text-decoration: none;
 }
+
+#banner-shop{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 40vh;
+    background-image: url(./images/banner/b1.jpg);
+    background-size: cover;
+    background-position: top 20% left 0;
+    margin-bottom: 20px;
+}
+#banner-shop h2{
+    color: #fff;
+}
+#banner-shop p{
+    color: #fff;
+    font-size: 14px;
+}
+#pagination{
+    padding: 20px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pagination a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    margin: 2px;
+    font-weight: 600;
+}
