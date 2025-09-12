@@ -438,3 +438,37 @@ footer a{
     margin: 2px;
     font-weight: 600;
 }
+
+#ProductDetails{
+    display: flex;
+}
+#ProductDetails .large-Img{
+    width: 40%;
+    margin-right: 50px;
+}
+.smallImages{
+    display: flex;
+    justify-content: space-between;
+}
+.smalll{
+    flex-basis: 24%;    
+}
+.details h4{
+    padding: 40px 0 20px 0;
+}   
+.details h2{
+    font-size: 26px;
+}
+.details button{
+    color: #fff;
+    background-color: #088178;
+}
+.details input{
+    padding: 10px 20px;
+}
+.details input:focus{
+    outline: none;
+}
+.details span{
+    line-height: 25px;
+}
