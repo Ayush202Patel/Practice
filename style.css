@@ -439,36 +439,91 @@ footer a{
     font-weight: 600;
 }
 
-#ProductDetails{
+#banner-header{
+    background-image: url(./images/banner/b1.jpg);
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#banner-header h2{
+    color: #fff;
+}
+#banner-header p{
+    color: #fff;
+}
+
+#porduct{
     display: flex;
 }
-#ProductDetails .large-Img{
+#product .ProductImage{
     width: 40%;
-    margin-right: 50px;
 }
-.smallImages{
+
+#ProductImage .smallImages{
     display: flex;
     justify-content: space-between;
 }
-.smalll{
-    flex-basis: 24%;    
+.smallImages{
+    flex-basis: 24%;
 }
-.details h4{
-    padding: 40px 0 20px 0;
-}   
-.details h2{
-    font-size: 26px;
+
+#banner-shop.banner-blog{
+    background-image: url(./images/banner/b19.jpg);
 }
-.details button{
-    color: #fff;
+#blog{
+    padding: 150px 140px 0 150px;
+}
+#blog .blog-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 90px;
+    position: relative;
+}
+#blog .blog-img{
+    width: 50%;
+    margin-right: 40px;
+}
+#blog img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+#blog .blog-details{
+    width: 50%;
+}
+#blog .blog-details a{
+    text-decoration: none;
+    font-size: 11px;
+    color: #222;
+    font-weight: 700;
+    position: relative;
+    transition: 0.3s ease;
+}
+#blog .blog-details a::after {
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    top: 4px;
+    right: -60px;
+}
+#blog .blog-details a:hover::after{
     background-color: #088178;
 }
-.details input{
-    padding: 10px 20px;
+#blog .blog-details a:hover{
+    color: #088178;
 }
-.details input:focus{
-    outline: none;
-}
-.details span{
-    line-height: 25px;
+#blog .blog-box h1{
+    position: absolute;
+    top: -40px;
+    left:0;
+    font-size:70px ;
+    font-weight: 700;
+    color: #c9cbce;
+    z-index: -9;
 }
