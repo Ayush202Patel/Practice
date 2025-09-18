@@ -384,6 +384,47 @@ body{
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
 }
+#pro-details{
+    display: flex;
+    margin: 20px;
+}
+#pro-details .single-pro-image{
+    width: 40%;
+    margin-right: 40px;
+}
+#pro-details .small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+#pro-details .small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+.single-pro-details{
+    width: 50%;
+}
+.single-pro-details h3{
+    padding: 40px 0 20px 0;
+}
+.single-pro-details h4{
+    font-size: 26px;
+}
+.single-pro-details input{
+    padding: 10px 15px;
+    width: 50px;
+    height: 45px;
+}
+.single-pro-details button{
+    background-color: #088178;
+    color: #fff;
+}
+.single-pro-details span{
+    line-height: 25px;
+}
+.single-pro-details h1{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
 footer{
     display: flex;
     justify-content: space-between;
