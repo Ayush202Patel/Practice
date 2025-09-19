@@ -384,9 +384,9 @@ body{
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
 }
-#pro-details{
+#pro-details {
     display: flex;
-    margin: 20px;
+    flex-wrap: wrap;
 }
 #pro-details .single-pro-image{
     width: 40%;
@@ -394,36 +394,36 @@ body{
 }
 #pro-details .small-img-group{
     display: flex;
+    flex-basis: 24%;
     justify-content: space-between;
 }
-#pro-details .small-img-col{
-    flex-basis: 24%;
-    cursor: pointer;
+#pro-details .small-img-group .small-img{
+    padding: 3px;
 }
-.single-pro-details{
+#pro-details .pro{
     width: 50%;
 }
-.single-pro-details h3{
-    padding: 40px 0 20px 0;
+#pro-details .pro h4{
+    margin:30px;
+    margin-left: 0;
 }
-.single-pro-details h4{
-    font-size: 26px;
+#pro-details .pro h3{
+    font-size: 24px;
 }
-.single-pro-details input{
-    padding: 10px 15px;
-    width: 50px;
-    height: 45px;
+#pro-details .pro select{
+    margin-right: 600px;
 }
-.single-pro-details button{
+#pro-details .pro input{
+    padding:  15px 20px;
+    width: 40px;
+    height: 50px;
+}
+#pro-details .pro button{
     background-color: #088178;
     color: #fff;
 }
-.single-pro-details span{
-    line-height: 25px;
-}
-.single-pro-details h1{
-    font-size: 24px;
-    padding-bottom: 20px;
+#pro-details .pro span{
+    line-height: 24px;
 }
 footer{
     display: flex;
